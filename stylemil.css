@@ -1,0 +1,90 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+}
+.main{
+    display: flex;
+    background-color: rgb(36, 145, 235);
+    width:90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius:10px ;
+    box-shadow: 0 0 200px rgba(10, 10, 2, 0.3)
+ }
+ .left-sect{
+    background-color:black;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right:5px solid red ;
+
+ }
+ h1{
+    font-size: 24px;
+    margin: 10px 10;
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ h2{
+    font-size: larger;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+ }
+ #certification{
+    font-size: 10px;
+    padding: 2px;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow:0 0 10px red ;
+    margin-top: 5%;
+    margin-bottom: 5%; 
+}
+.right-section{
+    margin: 0 auto;
+    padding: 0;
+}
+.personal-info{
+     box-shadow:0 0 150px red;
+    border-radius:10px;
+    border-color:1px solid red;
+    text-align: justify;
+}
+#Education{
+    text-transform: capitalize;
+    text-align: left;
+    text-wrap: break-word;
+    box-shadow:0 0 150px red;
+    border-radius:10px;
+    border-color:1px solid purple;
+
+    
+}
+#workexperience{
+    text-transform: capitalize;
+    text-align: justify;
+    box-shadow:0 0 150px red;
+    border-radius:10px;
+    border-color:1px solid purple;
+    text-align: justify;
+}
+#button:hover{
+             background-color:skyblue;}
+.profilepic{
+    image-rendering: auto;
+    
+}
+#skills{
+    box-shadow:0 0 150px red;
+    border-radius:10px;
+    border-color:1px solid purple;
+    text-align: justify;
+}
+.hidden {
+    display: none;
+
+}
